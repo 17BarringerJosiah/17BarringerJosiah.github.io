@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Software Engineer Aspirations</title>
+    <title>Josiah Barringer - Software Engineer Aspirations</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -58,14 +58,14 @@
 <body>
 
     <header>
-        <h1>Your Name</h1>
+        <h1>Josiah Barringer</h1>
         <p>Aspiring Software Engineer</p>
     </header>
 
     <section>
         <h2>About Me</h2>
         <p>
-            Introduce yourself and talk about your passion for software engineering. Mention your educational background, relevant skills, and any projects or experiences that have inspired your journey.
+            For the past two years I have worked to build my knowledge of Software Engineering while completeing classes as a Computer Science major at Liberty University. So far, I have learned Java, HTML, CSS, and a little bit of Python.
         </p>
     </section>
 
