@@ -78,7 +78,7 @@
         <p>Aspiring Software Engineer</p>
     </header>
 
-    <img id="banner" src="banner.jpg" alt="Banner Image">
+    <img id="banner" src="Screenshot 2023-11-27 130545.png" alt="Banner Image">
 
     <div id="profile-pic">
         <img src="profile.jpg" alt="Profile Picture">
