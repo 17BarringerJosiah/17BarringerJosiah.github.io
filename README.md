@@ -28,7 +28,7 @@
         #profile-pic {
             width: 150px;
             height: 150px;
-            border-radius: 50%;
+            border-radius: 30%;
             object-fit: cover;
             margin: 0 20px 20px 0;
             background-color: #fff;
