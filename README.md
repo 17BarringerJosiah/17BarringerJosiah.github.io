@@ -19,6 +19,22 @@
             padding: 1em;
         }
 
+        #banner {
+            width: 100%;
+            max-height: 300px; /* Adjust the height as needed */
+            object-fit: cover;
+        }
+
+        #profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: -75px auto 0;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
         section {
             max-width: 800px;
             margin: 2em auto;
@@ -27,7 +43,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
+        h1, h2 {
             color: #333;
         }
 
@@ -62,6 +78,12 @@
         <p>Aspiring Software Engineer</p>
     </header>
 
+    <img id="banner" src="banner.jpg" alt="Banner Image">
+
+    <div id="profile-pic">
+        <img src="profile.jpg" alt="Profile Picture">
+    </div>
+
     <section>
         <h2>About Me</h2>
         <p>
@@ -86,6 +108,13 @@
         <h2>Contact</h2>
         <p>
             Connect with me through social media or email. Feel free to reach out for collaboration or to discuss anything related to software engineering.
+        </p>
+    </section>
+
+    <section>
+        <h2>Army Career</h2>
+        <p>
+            Share your experiences and achievements during your time in the army. Highlight any relevant skills or lessons learned that contribute to your journey as a software engineer.
         </p>
     </section>
 
