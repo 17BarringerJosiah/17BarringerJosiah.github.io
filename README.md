@@ -79,7 +79,7 @@
         <p>Aspiring Software Engineer</p>
     </header>
 
-    <img id="banner" src="Banner.jpeg" alt="Banner Image">
+    <img id="banner" src="Banner.jpg" alt="Banner Image">
 
     <div id="profile-pic">
         <img src="unnamed.jpg" alt="Profile Picture">
