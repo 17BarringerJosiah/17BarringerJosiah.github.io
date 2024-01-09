@@ -70,6 +70,40 @@
             height: auto;
         }
     </style>
+    <script>
+        // Inserted JavaScript code
+        console.log("Josiah Barringer - PROGRAMMING: Final Assignment Part 1");
+
+        // Student information
+        const studentIds = [1098, 7654, 3210, 2234, 5641, 4467, 9365, 8884, 0143, 5680];
+        const studentNames = ["Josiah", "Jesse", "Jacob", "Joy", "James", "Naomi", "Emmah", "Babba", "Kathye", "Rick"];
+        const studentGPAs = [3.3, 1.9, 3.1, 4.0, 3.7, 3.2, 3.9, 4.0, 3.4, 3.3];
+
+        // Prompt for student ID number
+        const searchId = parseInt(prompt("Enter Student ID:"));
+
+        // Search for the ID number in the array
+        let found = false;
+        let name = "";
+        let gpa = 0.0;
+
+        for (let i = 0; i < studentIds.length; i++) {
+            if (studentIds[i] === searchId) {
+                found = true;
+                name = studentNames[i];
+                gpa = studentGPAs[i];
+                break;
+            }
+        }
+
+        // Display results
+        if (found) {
+            console.log("Name: " + name);
+            console.log("GPA: " + gpa);
+        } else {
+            console.error("Invalid ID number: " + searchId);
+        }
+    </script>
 </head>
 <body>
 
