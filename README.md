@@ -40,7 +40,7 @@
 
         #profile-pic {
             text-align: center;
-            margin-top: +100px; /* Adjust as needed to align with the main header */
+            margin-top: -150px; /* Adjust as needed to align with the main header */
         }
 
         #profile-pic img {
