@@ -104,7 +104,42 @@
         <!-- Add more project modules as needed -->
         
     </section>
+    <script>
+        // Inserted JavaScript code
+        function searchStudent() {
+            const project1 = document.getElementById('project1');
+            const searchId = parseInt(prompt("Enter Student ID:"));
 
+            // Student information for Project 1
+            const studentIds = [1098, 7654, 3210, 2234, 5641, 4467, 9365, 8884, 0143, 5680];
+            const studentNames = ["Josiah", "Jesse", "Jacob", "Joy", "James", "Naomi", "Emmah", "Babba", "Kathye", "Rick"];
+            const studentGPAs = [3.3, 1.9, 3.1, 4.0, 3.7, 3.2, 3.9, 4.0, 3.4, 3.3];
+
+            // Search for the ID number in the array
+            let found = false;
+            let name = "";
+            let gpa = 0.0;
+
+            for (let i = 0; i < studentIds.length; i++) {
+                if (studentIds[i] === searchId) {
+                    found = true;
+                    name = studentNames[i];
+                    gpa = studentGPAs[i];
+                    break;
+                }
+            }
+
+            // Display results within Project 1 section
+            if (found) {
+                console.log("Name: " + name);
+                console.log("GPA: " + gpa);
+                project1.innerHTML += "<p>Student Name: " + name + "</p><p>GPA: " + gpa + "</p>";
+            } else {
+                console.error("Invalid ID number: " + searchId);
+                project1.innerHTML += "<p>Error: Invalid ID number " + searchId + "</p>";
+            }
+        }
+    </script>
     <section>
         <h2>Contact</h2>
         <p>
