@@ -144,22 +144,20 @@
     <section>
         <h2>Contact</h2>
         <p>
-            Connect with me through social media or email. Feel free to reach out for collaboration or to discuss anything related to software engineering.
-
-            Personel Email - josiahbarr17@gmail.com
-            LinkedIn - https://www.linkedin.com/in/josiah-b-73370911b/
+        Connect with me through social media or email. Feel free to reach out for collaboration or to discuss anything related to software engineering.
+        </p>
+        <p>
+        Personel Email - josiahbarr17@gmail.com
+        </p>
+        <p>
+        LinkedIn - https://www.linkedin.com/in/josiah-b-73370911b/
         </p>
     </section>
 
     <section>
         <h2>Army Career</h2>
         <p>
-           During my time in the Army I served in the following roles:
-
-           Medical Evacuation Platoon Leader
-           Medical Treatment Facility Platoon Leader
-           Battalion Medical Operations Officer
-           Brigade Medical Supply Officer
+           During my time in the Army I served in the following roles: Medical Evacuation Platoon Leader, Medical Treatment Facility Platoon Leader, Battalion Medical Operations Officer, Brigade Medical Supply Officer
         </p>
 
 
