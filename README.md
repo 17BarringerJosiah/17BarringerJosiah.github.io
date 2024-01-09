@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josiah Barringer - Software Engineer Aspirations</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Website</title>
+
     <style>
         body {
-            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
         }
 
-        header {
-            background-color: #333;
-            color: #fff;
+        .main-header {
+            background-color: #3498db; /* Header background color */
+            color: #fff; /* Text color */
             text-align: center;
-            font-size: 50px;
+            padding: 40px 0; /* Adjust padding as needed */
+        }
+
+        .main-header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .main-header p {
+            font-size: 1.2em;
+            margin-top: 10px;
         }
 
         #banner {
@@ -43,7 +55,8 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             color: #333;
         }
 
@@ -70,15 +83,19 @@
             height: auto;
         }
     </style>
-    
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Josiah Barringer</h1>
-        <p>Transitioning Army Officer</p>
-        <p>Aspiring Software Engineer</p>
+    <header class="main-header">
+        <h1>Your Website Name</h1>
+        <p>A brief and catchy tagline for your website</p>
     </header>
+
+    <h1>Josiah Barringer</h1>
+    <p>Transitioning Army Officer</p>
+    <p>Aspiring Software Engineer</p>
 
     <img id="banner" src="Banner.jpg" alt="Banner Image">
 
@@ -89,7 +106,7 @@
     <section>
         <h2>About Me</h2>
         <p>
-            For the past two years I have worked to build my knowledge of Software Engineering while completeing classes as a Computer Science major at Liberty University. So far, I have learned Java, HTML, CSS, and a little bit of Python.
+            For the past two years, I have worked to build my knowledge of Software Engineering while completing classes as a Computer Science major at Liberty University. So far, I have learned Java, HTML, CSS, and a little bit of Python.
         </p>
     </section>
 
@@ -100,39 +117,36 @@
             <img src="Screenshot 2023-11-27 130545.png" alt="Project 1">
             <h3>Project 1</h3>
             <p>During my second semester of college, I took a Java course which taught me how to use...</p>
-     </div>
+        </div>
         <div class="project">
             <img src="Screenshot 2023-11-27 130545.png" alt="Project 1">
             <h3>Project 2</h3>
             <p>Blah blah blah...</p>
-     </div>
+        </div>
         <!-- Add more project modules as needed -->
-        
+
     </section>
-    
+
     <section>
         <h2>Contact</h2>
         <p>
-        Connect with me through social media or email. Feel free to reach out for collaboration or to discuss anything related to software engineering.
+            Connect with me through social media or email. Feel free to reach out for collaboration or to discuss anything related to software engineering.
         </p>
         <p>
-        Personel Email - josiahbarr17@gmail.com
+            Personal Email - josiahbarr17@gmail.com
         </p>
         <p>
-        LinkedIn - https://www.linkedin.com/in/josiah-b-73370911b/
+            LinkedIn - https://www.linkedin.com/in/josiah-b-73370911b/
         </p>
     </section>
 
     <section>
         <h2>Army Career</h2>
         <p>
-           During my time in the Army I served in the following roles: Medical Evacuation Platoon Leader, Medical Treatment Facility Platoon Leader, Battalion Medical Operations Officer, Brigade Medical Supply Officer
+            During my time in the Army, I served in the following roles: Medical Evacuation Platoon Leader, Medical Treatment Facility Platoon Leader, Battalion Medical Operations Officer, Brigade Medical Supply Officer
         </p>
-
-
-
-        
     </section>
 
 </body>
+
 </html>
