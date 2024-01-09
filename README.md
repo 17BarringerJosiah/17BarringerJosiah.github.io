@@ -15,15 +15,17 @@
         }
 
         .main-header {
-            background-color: #4CAF50; /* Header background color */
+            position: relative;
             color: #fff; /* Text color */
             text-align: center;
             padding: 40px 0; /* Adjust padding as needed */
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('Banner.jpg') center/cover no-repeat; /* Added white shading with a gradient and set the banner image as a background */
         }
 
         .main-header h1 {
             margin: 0;
             font-size: 2.5em;
+            margin-bottom: 20px; /* Adjusted to move the header text towards the bottom of the banner image */
         }
 
         .main-header p {
@@ -31,21 +33,15 @@
             margin-top: 10px;
         }
 
-        #banner {
-            width: 100%;
-            max-height: 300px; /* Adjust the height as needed */
-            object-fit: cover;
-            padding: 40px 0;
-        }
-
         #profile-pic {
-            text-align: center;
-            margin-top: -450px; /* Adjust as needed to align with the main header */
+            text-align: left; /* Align the profile picture to the left */
+            margin-top: -250px; /* Adjust as needed to align with the main header */
+            margin-left: 20px; /* Move the profile picture to the left margin */
         }
 
         #profile-pic img {
-            width: 300px;
-            height: 300px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             object-fit: cover;
             background-color: #fff;
@@ -102,10 +98,15 @@
         <img src="unnamed.jpg" alt="Profile Picture">
     </div>
 
-    <img id="banner" src="Banner.jpg" alt="Banner Image">
-
     <section>
         <h2>About Me</h2>
         <p>
             For the past two years, I have worked to build my knowledge of Software Engineering while completing classes as a Computer Science major at Liberty University. So far, I have learned Java, HTML, CSS, and a littl
+        </p>
+    </section>
 
+    <!-- Add other sections as needed -->
+
+</body>
+
+</html>
