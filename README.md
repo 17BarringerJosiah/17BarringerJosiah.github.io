@@ -44,8 +44,8 @@
         }
 
         #profile-pic img {
-            width: 150px;
-            height: 150px;
+            width: 300px;
+            height: 300px;
             border-radius: 50%;
             object-fit: cover;
             background-color: #fff;
