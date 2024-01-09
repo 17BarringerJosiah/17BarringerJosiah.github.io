@@ -48,7 +48,7 @@
         }
 
         section {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 2em auto;
             padding: 2em;
             background-color: #fff;
@@ -92,10 +92,6 @@
         <h1>Josiah Barringer</h1>
         <p>Jumping out of planes was cool. But I wanna code now.</p>
     </header>
-
-    <h1>Josiah Barringer</h1>
-    <p>Transitioning Army Officer</p>
-    <p>Aspiring Software Engineer</p>
 
     <img id="banner" src="Banner.jpg" alt="Banner Image">
 
