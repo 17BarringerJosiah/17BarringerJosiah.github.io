@@ -16,7 +16,6 @@
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 1em;
             font-size: 50px;
         }
 
@@ -77,6 +76,7 @@
 
     <header>
         <h1>Josiah Barringer</h1>
+        <p>Transitioning Army Officer</p>
         <p>Aspiring Software Engineer</p>
     </header>
 
