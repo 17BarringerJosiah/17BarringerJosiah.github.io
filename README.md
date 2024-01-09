@@ -100,17 +100,11 @@
             <h3>Project 1</h3>
             <p>During my second semester of college, I took a Java course which taught me how to use...</p>
      </div>
-
-      <section class="projects">
-        <h2>Projects</h2>
-        <!-- Example project module -->
         <div class="project">
             <img src="Screenshot 2023-11-27 130545.png" alt="Project 1">
             <h3>Project 2</h3>
-            <p>During my second semester of college, I took a Java course which taught me how to use...</p>
+            <p>Blah blah blah...</p>
      </div>
-
-     
         <!-- Add more project modules as needed -->
         
     </section>
