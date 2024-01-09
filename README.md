@@ -17,6 +17,7 @@
             color: #fff;
             text-align: center;
             padding: 1em;
+            font-size: large;
         }
 
         #banner {
