@@ -48,7 +48,7 @@
         }
 
         section {
-            max-width: 1000px;
+            max-width: 1500px;
             margin: 2em auto;
             padding: 2em;
             background-color: #fff;
