@@ -152,6 +152,10 @@
         <p>
             Share your experiences and achievements during your time in the army. Highlight any relevant skills or lessons learned that contribute to your journey as a software engineer.
         </p>
+
+
+
+        
     </section>
 
 </body>
