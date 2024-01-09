@@ -99,7 +99,7 @@
             <img src="Screenshot 2023-11-27 130545.png" alt="Project 1">
             <h3>Project 1</h3>
             <p>During my second semester of college, I took a Java course which taught me how to use...</p>
-        </div>
+       
 <script>
         // Inserted JavaScript code
         function searchStudent() {
@@ -136,6 +136,7 @@
             }
         }
     </script>
+     </div>
         <!-- Add more project modules as needed -->
         
     </section>
