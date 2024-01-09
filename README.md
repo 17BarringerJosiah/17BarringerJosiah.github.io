@@ -61,7 +61,7 @@
         }
 
         section {
-            max-width: 2000px;
+            max-width: 1200px;
             margin: 2em auto;
             padding: 2em;
             background-color: #fff;
