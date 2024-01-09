@@ -96,15 +96,11 @@
         <h2>Projects</h2>
         <!-- Example project module -->
         <div class="project">
-            <img src="project1.jpg" alt="Project 1">
+            <img src="Screenshot 2023-11-27 130545.png" alt="Project 1">
             <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
+            <p>During my second semester of college, I took a Java course which taught me how to use...</p>
         </div>
-
-        <!-- Add more project modules as needed -->
-        
-    </section>
-    <script>
+<script>
         // Inserted JavaScript code
         function searchStudent() {
             const project1 = document.getElementById('project1');
@@ -140,6 +136,10 @@
             }
         }
     </script>
+        <!-- Add more project modules as needed -->
+        
+    </section>
+    
     <section>
         <h2>Contact</h2>
         <p>
