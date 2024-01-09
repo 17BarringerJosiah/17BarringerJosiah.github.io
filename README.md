@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Website</title>
+    <title>Josiah Barringer</title>
 
     <style>
         body {
@@ -89,8 +89,8 @@
 <body>
 
     <header class="main-header">
-        <h1>Your Website Name</h1>
-        <p>A brief and catchy tagline for your website</p>
+        <h1>Josiah Barringer</h1>
+        <p>Jumping out of planes was cool. But I wanna code now.</p>
     </header>
 
     <h1>Josiah Barringer</h1>
