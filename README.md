@@ -35,6 +35,7 @@
             width: 100%;
             max-height: 300px; /* Adjust the height as needed */
             object-fit: cover;
+            padding: 40px 0;
         }
 
         #profile-pic img {
@@ -45,6 +46,7 @@
             margin: 0 15px 15px 0;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            
         }
 
         section {
