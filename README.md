@@ -25,14 +25,14 @@
 
         .main-header h1 {
             margin: 0;
-            font-size: 3.5em;
+            font-size: 2.5em;
             background-color: rgba(255, 255, 255, 0.5); /* White shading around the text */
             padding: 10px; /* Padding around the text */
             display: inline-block; /* Allows padding to work properly */
         }
 
         .main-header p {
-            font-size: 2.2em;
+            font-size: 1.2em;
             margin-top: 10px;
         }
 
@@ -103,7 +103,7 @@
 
     <header class="main-header">
         <h1>Josiah Barringer</h1>
-        <p>Jumping out of planes was cool. But I wanna code now.</p>
+        <p>"Jumping out of planes was cool. But I wanna code now."</p>
     </header>
 
     <div id="profile-pic">
