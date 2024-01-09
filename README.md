@@ -17,7 +17,7 @@
             color: #fff;
             text-align: center;
             padding: 1em;
-            font-size: 36px;
+            font-size: 150px;
         }
 
         #banner {
