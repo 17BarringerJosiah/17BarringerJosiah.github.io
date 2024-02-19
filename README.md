@@ -6,7 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Josiah Barringer</title>
-
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cover_letter.html">Cover Letter</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+            <li><a href="professional_look.html">Professional Look</a></li>
+        </ul>
+    </nav>
     <style>
         body {
             margin: 0;
