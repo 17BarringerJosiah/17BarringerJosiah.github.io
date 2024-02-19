@@ -12,6 +12,7 @@ body {
         padding: 40px 0; /* Adjust padding as needed */
         z-index: 2; /* Ensures the text is on top of the banner image */
         margin-bottom: -80px; /* Move header text towards the bottom */
+        background-color: #f2f2f2; /* Light grey background color */
     }
 
     .main-header h1 {
