@@ -133,7 +133,6 @@
 
     <section class="projects">
         <h2>Projects</h2>
-        <!-- Example project module -->
         <div class="project">
             <img src="Screenshot 2023-11-27 130545.png" alt="Project 1">
             <h3>Project 1</h3>
