@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Josiah Barringer - Home</title>
+    <script defer src="scripts.js"></script> <!-- Link to JavaScript file -->
 </head>
-
 <body>
     <nav>
         <ul>
@@ -25,10 +24,6 @@
         <p>josiahbarr17@gmail.com</p>
     </header>
 
-    <div id="profile-pic">
-        <img src="unnamed.jpg" alt="Profile Picture">
-    </div>
-
     <img id="banner" src="Banner.jpg" alt="Banner Image">
 
     <section>
@@ -41,6 +36,29 @@
         </ul>
     </section>
 
-</body>
+    <section class="projects" id="projects-section">
+        <h2>Projects</h2>
+        <div class="project-carousel">
+            <button class="carousel-btn" id="prev-btn">←</button>
+            <div class="carousel">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>During my second semester of college, I took a Java course...</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>This is another project that demonstrates my skills in...</p>
+                </div>
+                <!-- Add more projects dynamically -->
+            </div>
+            <button class="carousel-btn" id="next-btn">→</button>
+        </div>
+    </section>
 
+    <footer>
+        <p>&copy; 2024 Josiah Barringer</p>
+    </footer>
+</body>
 </html>
